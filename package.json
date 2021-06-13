@@ -1,7 +1,7 @@
 {
-  "name": "emergency-site",
+  "name": "aphid2-da-emergency",
   "version": "1.0.0",
-  "description": "A boilerplate for emergency information websites",
+  "description": "",
   "scripts": {
     "build": "npm run clean && cross-env ELEVENTY_ENV=production eleventy",
     "watch": "eleventy --watch",
@@ -27,6 +27,8 @@
     "htmlnano": "^0.2.5",
     "luxon": "^1.22.0",
     "markdown-it": "^10.0.0",
-    "markdown-it-anchor": "^5.2.5"
-  }
+    "markdown-it-anchor": "^5.2.5",
+    "nightscout": "0.12.8"
+  },
+  "keywords": []
 }
